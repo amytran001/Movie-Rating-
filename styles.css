@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 200px;
+    padding: 0;
+    background-color: rgb(177, 136, 177);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 30px;
+    background: #965392;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+label {
+    display: flex;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #663463;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #291427;
+}
+
+#movieList {
+    margin-top: 20px;
+}
+
+#movieUl {
+    list-style-type: none;
+    padding: 0;
+}
+
+#moviesUl li {
+    margin-bottom: 10px;
+}
+
